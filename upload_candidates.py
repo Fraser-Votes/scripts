@@ -20,4 +20,5 @@ for user in users:
         u'voted': False
     }
     users_ref.document(user).set(data)
+    print(f"Setting data for {user}")
 
