@@ -3,7 +3,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 
 # Initialize credentials
-cred = credentials.Certificate('fraser-votes-5da49fb5e231.json')
+cred = credentials.Certificate('fv-creds.json')
 firebase_admin.initialize_app(cred)
 
 # Load JSON
