@@ -13,7 +13,7 @@ user_ref = db.collection(u'users').document(peelId)
 
 user = user_ref.get()
 if user.exists:
-    print(f"Current user data: {user.to_dict}")
+    print(f"Current user data: {user.to_dict()}")
 
     # Set voted
     voted = ""
