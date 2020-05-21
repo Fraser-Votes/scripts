@@ -5,7 +5,7 @@ description = "Basic scripts used in the development of Fraser Votes"
 authors = ["Jason Huang <jasonhuang20035@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.5"
 firebase-admin = "^4.2.0"
 
 [tool.poetry.dev-dependencies]
